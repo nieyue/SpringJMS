@@ -22,7 +22,7 @@
       
     <!-- 连接工厂 -->
     <bean id="activeMQConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">  
-        <property name="brokerURL" value="tcp://localhost:61616" />  
+        <property name="brokerURL" value="tcp://120.27.27.180:61616" />  
     </bean>  
     
     <!-- 配置消息目标 -->
